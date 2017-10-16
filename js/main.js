@@ -12,7 +12,7 @@ var queryjs = (function(a) {
     }
     return b;
 })(window.location.search.substr(1).split('&'));
-
+// Verificar length
 var nome = queryjs['nome'];
 if (nome == "") {
 	nome = "QueryJS";
